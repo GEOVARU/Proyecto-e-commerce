@@ -7,7 +7,7 @@ import './App.css';
 import Menu from './components/NavMenu/NavMenu';
 import Prods from './components/productos/productos';
 import LogIn from './components/headerButtons/LogIn';
-import SignIn from './components/headerButtons/SignIn';
+import Registro from './components/headerButtons/Registro';
 import Footer from './components/footer/footer';
 import Buy from './components/FormularioCompra/FormularioCompra';
 
@@ -28,7 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LogIn />} />
         <Route path="/productos" element={<Prods onError={handleError} />} />
-        <Route path="/signin" element={<SignIn />} />
+        <Route path="/Registro" element={<Registro />} />
         <Route path="/checkout" element={<Buy />} />
       </Routes>
       <Footer />
