@@ -4,36 +4,39 @@
   bottom: 0
   left: 0
   width: 100%
-  background-color: #04008a
+  background-color: #ff0000
+  text-align: left /* Alineación a la izquierda */
+
 
 .footer-basic footer 
   margin-top: 20px
-  text-align: center
   font-size: 14px
   color: #000000
+  text-align: left /* Alineación a la izquierda */
 
-.footer-basic ul 
-  padding: 0
-  list-style: none
-  text-align: center
-  font-size: 14px
-  line-height: 1.8
-  margin-bottom: 0
 
-.footer-basic li 
-  padding: 0 10px
+.footer-basic .footer-content 
+  display: flex
+  justify-content: space-between /* Alineación a la izquierda de los elementos internos */
+  padding: 10px
+
+
+.footer-basic .footer-column 
+  width: 45% /* Ajusta el ancho de las columnas según tus preferencias */
+  padding: 10px
+
 
 .footer-basic a 
-  color: #00a186
+  color: #f9fc00
   text-decoration: none
   opacity: 0.8
+
 
 .footer-basic a:hover,
 .footer-basic a:focus 
   opacity: 1
 
+
 .footer-basic .copyright 
   color: #ffffff
 
-.list-inline-item
-  color: #ffffff
