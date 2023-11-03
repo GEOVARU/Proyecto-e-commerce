@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ShoppingCartIcon from '../headerButtons/ShoppingIcon';
-import './MainMenu.sass';
+import './NavMenu.sass';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 import Image from 'react-bootstrap/Image';
