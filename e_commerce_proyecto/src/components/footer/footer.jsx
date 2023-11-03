@@ -20,8 +20,8 @@ const footer = () => {
                 <li class="list-inline-item">
                     <a href="#">
                     9490-20-387<br/>
-                    Rudy sarazua xd<br/>
-                    rskiller2@miumg.edu.gt<br/>
+                    Rudy Alexander Amado Soto Rosil<br/>
+                    rsotor2@miumg.edu.gt<br/>
                     </a>
                 </li>
             </ul>
