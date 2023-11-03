@@ -112,7 +112,7 @@ function SignupForm() {
         <Form.Text>Inicia sesión</Form.Text>
         <br />
         <Button variant="primary" onClick={handleLogInClick}>
-          LogIn
+          inicioSesion
         </Button>
       </Form>
     </div>

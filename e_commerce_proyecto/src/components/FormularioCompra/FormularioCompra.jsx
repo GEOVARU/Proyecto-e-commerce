@@ -87,7 +87,7 @@ function Checkout() {
                               ))}
                             </ul>
                             <div className="cart-total">
-                              Total: ${cartData ? cartData.Total : 0}
+                              Total: Q{cartData ? cartData.Total : 0}
                             </div>
                           </div>
                         
