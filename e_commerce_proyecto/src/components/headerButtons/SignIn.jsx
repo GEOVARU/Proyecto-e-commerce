@@ -60,7 +60,7 @@ function SignupForm() {
     <div className="LogForm">
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicDPI">
-        <Image src="../public/icons/LogInLogo.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
+        <Image src="../public/img/LogInLogo.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
         <br />
           <Form.Label>Registro</Form.Label>
           <Form.Control type="text" placeholder="DPI" value={DPI} onChange={(e) => setDPI(e.target.value)} />
