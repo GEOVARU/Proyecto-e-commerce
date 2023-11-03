@@ -9,7 +9,7 @@ import Prods from './components/productos/productos';
 import LogIn from './components/headerButtons/LogIn';
 import SignIn from './components/headerButtons/SignIn';
 import Footer from './components/footer/footer';
-import Buy from './components/BuyForm/BuyForm';
+import Buy from './components/FormularioCompra/FormularioCompra';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
