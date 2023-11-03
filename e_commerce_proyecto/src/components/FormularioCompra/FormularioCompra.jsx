@@ -72,7 +72,7 @@ function Checkout() {
       <Container>
         <Row>
           <Col>
-          <Image src="../public/img/carts.png"  style={{ width: '10%', height: '15%' }}/>
+          <Image src="../public/img/carrito.png"  style={{ width: '10%', height: '15%' }}/>
           <br />
             <hr />
             <h2>Orden</h2>
