@@ -131,7 +131,7 @@ const Header = ({ onSelect, onLoginClick, onSignInClick }) => {
                               ))}
                             </ul>
                             <div className="cart-total">
-                              Total: ${cartData ? cartData.Total : 0}
+                              Total: Q{cartData ? cartData.Total : 0}
                             </div>
                             <button className="checkout-button" onClick={handleCheckOutClick}>Checkout</button>
                           </div>
