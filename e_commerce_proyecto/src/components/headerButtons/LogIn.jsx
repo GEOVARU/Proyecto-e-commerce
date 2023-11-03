@@ -48,7 +48,7 @@ function Login() {
       <Form onSubmit={handleSubmit}>
         <Image src="../public/img/logo_2.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
         <br />
-        <Form.Label>Inicio de session</Form.Label>
+        <Form.Label>Inicio de sesion</Form.Label>
         <Form.Group controlId="formBasicEmail">
           <Form.Control type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </Form.Group>
@@ -60,14 +60,14 @@ function Login() {
         <br />
         <br />
         <Button variant="primary" type="submit">
-          Log In
+          Log In (Cuchao)
         </Button>
         <br />
         <br />
         <Form.Text>Crea tu cuenta</Form.Text>
         <br />
         <Button variant="primary" onClick={handleSignInClick}>
-          Sign In
+          Registrate
         </Button>
       </Form>
 

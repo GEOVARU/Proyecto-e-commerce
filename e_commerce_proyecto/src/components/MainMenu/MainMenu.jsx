@@ -105,7 +105,7 @@ const Header = ({ onSelect, onLoginClick, onSignInClick }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-      <Image src="../public/icons/logo.png" roundedCircle style={{ width: '2%', height: '2%' }}/>
+      <Image src="../public/img/carrito.png" roundedCircle style={{ width: '2%', height: '2%' }}/>
         <Navbar.Brand onClick={handleClickInicio}>E-commerces Rayo MacQueen</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
