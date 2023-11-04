@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function LogOut() {
   return (
     <>
-        <h1>Test</h1>
+        <h1>ADIOS....</h1>
     </>
   );
 }

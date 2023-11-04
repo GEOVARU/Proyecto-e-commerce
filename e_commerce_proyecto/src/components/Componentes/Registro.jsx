@@ -34,7 +34,7 @@ function SignupForm() {
       Rol: 'user', // set the default value for Rol
     };
     try {
-      const response = await fetch('http://localhost:3000/api/registro/123', {
+      const response = await fetch('https://api-proyecto-dev.onrender.com/api/registro/123', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

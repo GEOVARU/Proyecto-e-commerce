@@ -21,7 +21,7 @@ function Checkout() {
       const fetchCartItems = async () => {
         try {
           const token = localStorage.getItem('token');
-          const response = await fetch('http://localhost:3000/api/carrito', {
+          const response = await fetch('https://api-proyecto-dev.onrender.com/api/carrito', {
             headers: {
               'Token': `${token}`
             }
