@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import ShoppingCartIcon from '../headerButtons/ShoppingIcon';
-import './MainMenu.sass';
+import ShoppingCartIcon from '../Componentes/ShoppingIcon';
+import './NavMenu.sass';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 import Image from 'react-bootstrap/Image';
@@ -96,7 +96,7 @@ const Header = ({ onSelect, onLoginClick, onSignInClick }) => {
   const handleClickInicio = () => {
     const token = localStorage.getItem('token');
     if (token) {
-      navigate('/products');
+      navigate('/producto');
     } else {
       navigate('/');
     }

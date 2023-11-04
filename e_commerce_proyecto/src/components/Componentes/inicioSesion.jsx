@@ -40,7 +40,7 @@ function Login() {
   };
 
   const handleSignInClick = () => {
-    navigate('/signin');
+    navigate('/Registro');
   };
 
   return (

@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 /*NOTA CAMBIAR LOS NOMBRES Y RUTAS DE LOS COMPONENTES PARA QUE FUNCIONE*/
-import Menu from './components/MainMenu/MainMenu';
+import Menu from './components/NavMenu/NavMenu';
 import Prods from './components/productos/productos';
-import LogIn from './components/headerButtons/LogIn';
-import SignIn from './components/headerButtons/SignIn';
+import Login from './components/Componentes/inicioSesion';
+import Registro from './components/Componentes/Registro';
 import Footer from './components/footer/footer';
 import Buy from './components/FormularioCompra/FormularioCompra';
 
@@ -26,9 +26,9 @@ function App() {
     <Router>
       <Menu onLoginClick={() => setLoggedIn(false)} onSignInClick={() => setLoggedIn(false)} />
       <Routes>
-        <Route path="/" element={<LogIn />} />
+        <Route path="/" element={<Login />} />
         <Route path="/productos" element={<Prods onError={handleError} />} />
-        <Route path="/signin" element={<SignIn />} />
+        <Route path="/Registro" element={<Registro />} />
         <Route path="/checkout" element={<Buy />} />
       </Routes>
       <Footer />

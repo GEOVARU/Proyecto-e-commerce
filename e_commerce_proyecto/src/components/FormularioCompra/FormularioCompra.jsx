@@ -72,7 +72,7 @@ function Checkout() {
       <Container>
         <Row>
           <Col>
-          <Image src="../public/img/carts.png"  style={{ width: '10%', height: '15%' }}/>
+          <Image src="../public/img/carrito.png"  style={{ width: '10%', height: '15%' }}/>
           <br />
             <hr />
             <h2>Orden</h2>
@@ -87,7 +87,7 @@ function Checkout() {
                               ))}
                             </ul>
                             <div className="cart-total">
-                              Total: ${cartData ? cartData.Total : 0}
+                              Total: Q{cartData ? cartData.Total : 0}
                             </div>
                           </div>
                         

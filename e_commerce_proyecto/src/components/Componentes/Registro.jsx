@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
 import Badge from 'react-bootstrap/Badge';
 import Image from 'react-bootstrap/Image';
 function SignupForm() {
@@ -62,7 +61,7 @@ function SignupForm() {
         <Form.Group controlId="formBasicDPI">
         <Image src="../public/img/logo_1.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
         <br />
-          <Form.Label>Registro</Form.Label>
+          <Form.Label>SignIn</Form.Label>
           <Form.Control type="text" placeholder="DPI" value={DPI} onChange={(e) => setDPI(e.target.value)} />
         </Form.Group>
 
@@ -113,7 +112,7 @@ function SignupForm() {
         <Form.Text>Inicia sesión</Form.Text>
         <br />
         <Button variant="primary" onClick={handleLogInClick}>
-          LogIn
+          inicioSesion
         </Button>
       </Form>
     </div>
