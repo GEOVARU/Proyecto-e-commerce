@@ -47,7 +47,7 @@ function Login() {
   return (
     <div className="LogForm">
       <Form onSubmit={handleSubmit}>
-        <Image src="../public/img/logo_2.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
+        <Image src="../img/logo_2.png" roundedCircle style={{ width: '30%', height: '30%' }}/>
         <br />
         <Form.Label>Inicio de sesion</Form.Label>
         <Form.Group controlId="formBasicEmail">
