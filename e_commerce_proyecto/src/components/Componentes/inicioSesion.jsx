@@ -31,6 +31,7 @@ function Login() {
 
       if (response.ok) {
         localStorage.setItem('token', data.Token);
+        navigate('/productos');
       } else {
         setErrorMessage(data.Mensaje);
       }
