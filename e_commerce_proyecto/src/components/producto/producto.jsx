@@ -9,7 +9,7 @@ const Producto = ({producto}) =>{
     const handleAddToCart = async () => {
         try {
             const token = localStorage.getItem('token');
-            const response = await fetch('END POINT', {
+            const response = await fetch('https://api-proyecto-dev.onrender.com/api/carrito/add/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

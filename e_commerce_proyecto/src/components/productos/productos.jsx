@@ -15,7 +15,7 @@ const Productos = ({ onError }) =>{
         const fetchProductos = async () => {
             try {
                 const token = localStorage.getItem('token');
-                const response = await fetch('END POINT', {
+                const response = await fetch('https://api-proyecto-dev.onrender.com/api/productos/', {
                     headers: {
                         'Token': `${token}`
                     }
